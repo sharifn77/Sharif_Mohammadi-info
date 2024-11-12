@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Shari fMohammadi</title>
+
+    <!-- font awesome cdn likn -->
+    
+    <link rel="stylesheet" type="text/css" href="awsom/css/all.css">
+    <!--custom css file likn -->
+    
+    <link rel="stylesheet" href="css/style.css"> 
+    
+    <style>
+        @media (max-width:991px){
+            html{
+                font-size: 55%;
+            }
+            
+            body{
+                padding-left: 0;
+            }
+
+            .header{
+                left: -110%;
+            }
+            
+            .header .active{
+                left: 0%;
+                transition: .4s linear;
+            }
+
+            #menu-btn{
+                display: initial;
+            }
+
+        }
+
+        @media (max-width:450px){
+            html{
+                font-size: 50%;
+            }
+            .header{
+                width: 100%;
+                border-right: 0;
+            }
+        }
+
+    </style>
+    
+    <script>
+        let menu = document.querySelector('#menu-btn');
+        let header = document.querySelector('.header');
+
+        menu.onclick = () =>{
+            menu.classList.toggle('fa-times');
+            header.classList.toggle('active');
+        }
+
+    </script>
+
+</head>
+<body>
+<!-- header section starts -->
+
+<header class="header">
+    <div class="user">
+        <img src="image/user-img.jpg" alt="">
+        <h3>Sharif Mohammadi</h3>
+        <p>Web designer</p>
+    </div>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+
+    </nav>
+</header>
+
+
+<!-- header section ends -->
+
+<div id="menu-btn" ><i class="fa fa-minus"></i></div>
+
+<!-- theme toggler-->
+
+<div id="theme-toggler" class="fas fa-moon"></div>
+
+<!-- home section starts-->
+
+<section class="home" id="home">
+    <div class="content">
+        <h3> Sharif Mohammadi</h3>
+        <p>I am a front-end developr</p>
+        <a href="#" class="btn">download CV</a>
+    </div>
+
+    <div class="share">
+        <a href="https://www.facebook.com/profile.php?id=100085112855712&mibextid=rS40aB7S9Ucbxw6v" class="fab fa-facebook-f" title="Feacebook"></a>
+        <a href="https://www.twitter.com" class="fab fa-twitter" title="Twitter"></a>
+        <a href="https://www.instagram.com/sh_arif5572?utm_source=qr&r=nametag" class="fab fa-instagram" title="instagram"></a>
+        <a href="https://www.linkedin.com/in/sharif-mohammadi-107208253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="fab fa-linkedin" title="linkedin"></a>
+        <a href="https://www.pinterest.com" class="fab fa-pinterest" title="Pinterest"></a>
+
+    </div>
+</section>
+
+<!-- home section ends-->
+
+<!-- about section starts-->
+
+<section class="about" id="about">
+    
+    <h1 class="heading"> <span>about</span> me </h1>
+
+    <div class="row">
+        <div title="this can be defrinds ok!" class="box-container">
+            <div class="box">
+                <h3>2+</h3>
+                <p>years of experience</p>
+            </div>
+
+            <div class="box">
+                <h3>450+</h3>
+                <p>satisfied clients</p>
+            </div>
+
+            <div class="box">
+                <h3>190+</h3>
+                <p>working hours</p>
+            </div>
+            
+            <div class="box">
+                <h3>10+</h3>
+                <p>awards won</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <h3>my name is <span>Sharif Mohammadi</span></h3>
+            <p>I work by agreement. I am at your sevice whether it is hourly or any kind of agreement.</p>
+            <a href="#" class="btn">contact me</a>
+        </div>
+
+    </div>
+
+    <div class="row">
+        
+        <div class="progress">
+            <h3> web design <span>70%</span></h3>
+            <div class="bar bar-1-1"><span></span></div>
+            <h3> graphic design <span>50%</span></h3>
+            <div class="bar bar-1-2"><span></span></div>
+            <h3> ICDL <span>90%</span></h3>
+            <div class="bar bar-1-3"><span></span></div>
+            <h3> Network & CCNA <span>45%</span></h3>
+            <div class="bar bar-1-4"><span></span></div>
+        </div>
+
+        <div class="progress">
+            <h3> HTML <span>70%</span></h3>
+            <div class="bar bar-2-1"><span></span></div>
+            <h3> CSS <span>60%</span></h3>
+            <div class="bar bar-2-2"><span></span></div>
+            <h3> Javascript <span>30%</span></h3>
+            <div class="bar bar-2-3"><span></span></div>
+            <h3> PHP <span>25%</span></h3>
+            <div class="bar bar-2-4"><span></span></div>
+        </div>
+    </div>
+
+</section>
+<!-- aboud section ends -->
+
+<!-- services section starts -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">my <span>services</span></h1>
+
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-code"></i>
+            <h3>wab dessign</h3>
+            <p>Designing all kinds of websites on the basis of hurs of based on the number of 
+                fertillzer lines, a websites is nexessary and I am always at your service with 
+                reasonable prices, so contact us to design your website.</p>
+
+        </div>
+
+        <div class="box">
+            <i class="fas fa-paint-brush"></i>
+            <h3>graphic dessign</h3>
+            <p>Designing all kinds of websites on the basis of hurs of based on the number of 
+                fertillzer lines, a websites is nexessary and I am always at your service with 
+                reasonable prices, so contact us to design your website.</p>
+
+        </div>
+
+        <div class="box">
+            <i class="fab fa-windows"></i>
+            <h3>teaching ICDL</h3>
+            <p>in ICDL I have a certificate from Parwan University.</p>
+
+        </div>
+
+        <div class="box">
+            <i class="fas fa-network-wired"></i>
+            <h3>Network & CCNA</h3>
+            <p>in the Network departments, I sdtudy information 
+                technology in my own University, and allso have informationin the Network section 
+            </p>
+
+        </div>
+
+        <div class="box">
+            <i class="fab fa-html5"></i>
+            <h3>HTML</h3>
+            <p>I have a certificate for HTML & CSS & Javascript and PHP from parwan University.</p>
+
+        </div>
+
+        <div class="box">
+            <i class="fab fa-css3"></i>
+            <h3>CSS</h3>
+            <p>I have a certificate for HTML & CSS & Javascript and PHP from parwan University.</p>
+
+        </div>
+
+        <div class="box">
+            <i class="fab fa-js"></i>
+            <h3>Javascript</h3>
+            <p>I have a certificate for HTML & CSS & Javascript and PHP from parwan University.</p>
+
+        </div>
+
+        <div class="box">
+            <i class="fab fa-php"></i>
+            <h3>PHP</h3>
+            <p>I have a certificate for HTML & CSS & Javascript and PHP from parwan University.</p>
+
+        </div>
+    </div>
+</section>
+
+<!-- services section ends -->
+
+<!-- portfollio section starts -->
+
+<section class="portfolio" id="portfolio">
+
+    <h1 class="heading"> my <span>portfolio</span></h1>
+
+    <div class="box-container">
+        
+        <div title="this is my first broject this broject finshed in 2023/1/30" class="box">
+            <img src="Image/img-1.jpg" alt="">
+            <div class="content">
+                <h3>project 01</h3>
+            </div>
+        </div>
+
+        <div title="this is my second broject this broject finshed in 2023/3/23" class="box">
+            <img src="Image/img-2.jpg" alt="">
+            <div class="content">
+                <h3>project 02</h3>
+            </div>
+        </div>
+
+        <div title="this is my third broject this broject finshed in 2023/6/10" class="box">
+            <img src="Image/img-3.jpg" alt="">
+            <div class="content">
+                <h3>project 03</h3>
+            </div>
+        </div>
+
+        <div title="this is my fourth broject this broject finshed in 2023/8/20" class="box">
+            <img src="Image/img-4.jpg" alt="">
+            <div class="content">
+                <h3>project 04</h3>
+            </div>
+        </div>
+
+        <div title="this is my fifth broject this broject finshed in 2023/10/30" class="box">
+            <img src="Image/img-5.jpg" alt="">
+            <div class="content">
+                <h3>project 05</h3>
+            </div>
+        </div>
+
+        <div title="this is my sixth broject this broject finshed in 2023/11/27" class="box">
+            <img src="Image/img-6.jpg" alt="">
+            <div class="content">
+                <h3>project 06</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- portfollio section ends -->
+
+<!-- contact section starts -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading"> <span>contact</span></h1>
+
+    <form action="">
+        <input type="text" placeholder="Your name" class="box">
+        <input type="email" placeholder="your email" class="box">
+        <input type="text" placeholder="subject" class="box">
+        <textarea name="" class="box" placeholder="your massage" id="" cols="50" rows="15"></textarea>
+        <input type="submit" value="send massage" class="btn">
+    </form>
+</section>
+<!-- contact section ends -->
+
+<div class="credits">created by <span>mr. web designer "Sharif Mohammadi" </span> | all rights reserved </div>
+
+
+<script src="awsom/js/conflict-detection.js"></script>
+<!-- custom js file likn -->
+<script src="js/scrip.js"></script>
+
+
+</body>
+</html>
